@@ -1,0 +1,12 @@
+.image-container{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+
+.image-container img{
+    width: 100%;
+}

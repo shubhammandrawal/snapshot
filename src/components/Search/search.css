@@ -1,0 +1,37 @@
+.container{
+    text-align: center;
+    margin: 80px auto;
+}
+
+.container .search-container{
+    margin-bottom: 20px;
+}
+
+.container .search-container input{
+    width: 20%;
+    padding: 6px 2.5px;
+    border-radius: 5px;
+}
+
+.container .search-container button{
+    padding: 6px 8.5px;
+    background-color: rgb(29, 29, 169);
+    color: white;
+    border: 1px solid rgb(29, 29, 169);
+    border-radius: 5px;
+}
+
+.container .search-container .title{
+    font-size: 40px;
+    font-style: oblique;
+    color: rgb(10, 10, 75);
+}
+
+.container .search-button button{
+    margin-left: 15px;
+    padding: 3px 15px;
+    background-color: rgb(29, 29, 169);
+    border: 1px solid rgb(29, 29, 169);
+    border-radius: 2px;
+    color: white;
+}
