@@ -20,6 +20,7 @@ export default function Images({updatedPlace}) {
                 return <Item item={`https://live.staticflickr.com/${item.server}/${item.id}_${item.secret}.jpg`} key={key}/>
             })}
         </section>
+        
     </>
 
 }

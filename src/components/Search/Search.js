@@ -1,21 +1,13 @@
 import { useState } from 'react';
 import './search.css';
 import Images from '../Image/Image'; 
+import Header from './Header';
 
-export default function Search(){
-    const handleChange = (e)=>{setPlace(e.target.value)}    
-    const handleClick = ()=> {setUpdatedPlace(place) }
-
-    const [place, setPlace] = useState(' ')
+export default function Search({place}){
     const[updatedPlace, setUpdatedPlace]=useState(place)
-    return<div className='container'>
-            <section className='search-container'>
-                <h2 className='title'>SnapShot</h2>
-                <input type='text' onChange={handleChange}
-                value={place}
-                /> 
-                  <button onClick={handleClick}>Search</button>
-            </section>
+    
+    return <div>
+            <Header setUpdatedPlace={setUpdatedPlace} />
             <Images updatedPlace={updatedPlace} />
         </div>
 }
